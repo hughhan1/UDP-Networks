@@ -29,7 +29,7 @@ implementations, the sender will just stall until it finds a listener to connect
 First, clone this repository and compile all of the Java files.
 ```
 git clone https://github.com/hughhan1/Networks.git
-cd Networks-master
+cd UDP-Networks-master
 javac *.java
 ```
 
