@@ -1,4 +1,4 @@
-# Networks #
+# UDP Networks #
 
 We learned a lot about different types of data transfer protocols in the [Computer
 Communications & Networks](http://www.inf.ed.ac.uk/teaching/courses/comn/) course at the
@@ -23,7 +23,7 @@ flag.
 
 In this sender-receiver implementation, the receiver is the listener. With that in mind,
 the receiver must always be run before the sender is run. This is especially important
-in the basic framework, since it uses unreliable data transfer (UDP). In the other
+in the basic framework, since it uses unreliable data transfer. In the other
 implementations, the sender will just stall until it finds a listener to connect to.
 
 First, clone this repository and compile all of the Java files.
